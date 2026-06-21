@@ -3,11 +3,11 @@
 **Tools:** R · Welch Two-Sample t-Test · Cohen's d · ggplot2 · tidyverse  
 **Domain:** Financial Services · Risk Analytics · Experimental Design  
 **Context:** Group Assignment — Advanced Data Analysis (IB98D0), University of Warwick MSc Business Analytics  
-**Status:** ✅ Complete
+**Status:**  Complete
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 A consumer lending company was experiencing high error rates in loan review decisions, leading to increased bad loan approvals and significant financial losses. The Analytics Department designed an A/B test to evaluate whether a new computer-assisted model could improve loan officers' decision quality.
 
@@ -22,7 +22,7 @@ A consumer lending company was experiencing high error rates in loan review deci
 
 ---
 
-## 🎯 Key Results
+##  Key Results
 
 | Metric | Control (Legacy) | Treatment (New Model) | Change | p-value | Cohen's d |
 |---|---|---|---|---|---|
@@ -48,7 +48,7 @@ loan-approval-ab-test/
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 
 ### 1. Data Cleaning
 - Records where all key fields (`typeI_fin`, `typeII_fin`, `agree_init`, etc.) were zero were removed as incomplete
@@ -83,7 +83,7 @@ agreement_rate = agree_fin_avg / (agree_fin_avg + conflict_fin_avg)
 
 ---
 
-## 📊 Selected Findings
+##  Selected Findings
 
 ### Bad Loan Detection Rate
 - Treatment mean: **0.739** vs Control mean: **0.625** (+18.2%)
@@ -102,7 +102,7 @@ Running the test on unprocessed data (missing values treated as zeros) produced 
 
 ---
 
-## 💼 Recommendation
+##  Recommendation
 
 The evidence strongly supports **rolling out the new model**. Every metric improved significantly, with large effect sizes confirming real-world impact beyond statistical significance. Additional recommendations:
 
@@ -113,7 +113,7 @@ The evidence strongly supports **rolling out the new model**. Every metric impro
 
 ---
 
-## 🛠️ Tools & Packages
+##  Tools & Packages
 
 ```r
 library(tidyverse)   # Data manipulation and visualisation
@@ -124,7 +124,7 @@ library(ggplot2)     # Boxplot visualisations
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Bishal Ranjan Bora**  
 [LinkedIn](https://linkedin.com/in/bishalbora) | [Email](mailto:bora.bishal@gmail.com) | [GitHub](https://github.com/bishalbora1998)
