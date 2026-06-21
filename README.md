@@ -35,7 +35,7 @@ All four metrics showed statistically significant improvement in the Treatment g
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 loan-approval-ab-test/
